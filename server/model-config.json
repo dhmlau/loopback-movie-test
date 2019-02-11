@@ -39,7 +39,7 @@
     "dataSource": null
   },
   "movies": {
-    "dataSource": "db",
+    "dataSource": "mongods",
     "public": true
   }
 }
