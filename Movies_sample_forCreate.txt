@@ -1,0 +1,85 @@
+{ 
+    "title" : "Once Upon a Time in the West-5", 
+    "releaseDate" : "2019-01-29T04:00:39.828+0000", 
+    "rating" : "4.25", 
+    "runtime" : 135, 
+    "states" : [
+        "IL", 
+        "MI", 
+        "IN"
+    ], 
+    "randomReview" : [
+        "3.5", 
+        "4.5", 
+        "4.0"
+    ], 
+    "tickets" : [
+        {
+            "theatre" : "AMC", 
+            "capacity" : "205", 
+            "unitprice" : "19.5"
+        }, 
+        {
+            "theatre" : "IMAX", 
+            "capacity" : "300", 
+            "unitprice" : "39.5"
+        }
+    ], 
+    "awards" : {
+        "currency" : "USD", 
+        "wins" : "4", 
+        "prizeMoney" : "100000.00"
+    }, 
+    "imdb" : {
+        "reviewDate" : "2019-01-29T04:00:39.828Z", 
+        "innerArray" : [
+            {
+                "ObjInsideAnArray" : {
+                    "testNumber" : "1234", 
+                    "testDate" : "TIMESTAMP '2019-01-30 18:26:38.551022'", 
+                    "testDecimal" : "99.55"
+                }, 
+                "nestedArray" : [
+                    {
+                        "testNumber" : "1234", 
+                        "testDate" : "TIMESTAMP '2019-01-30 18:26:38.551022'", 
+                        "testDecimal" : "99.55"
+                    }, 
+                    {
+                        "testNumber" : "1234", 
+                        "testDate" : "TIMESTAMP '2019-01-30 18:26:38.551022'", 
+                        "testDecimal" : "99.55"
+                    }
+                ], 
+                "testNumber" : "1234", 
+                "testDate" : "TIMESTAMP '2019-01-30 18:26:38.551022'", 
+                "testDecimal" : "99.55"
+            }, 
+            {
+                "ObjInsideAnArray" : null, 
+                "nestedArray" : null, 
+                "testNumber" : "5678", 
+                "testDate" : "TIMESTAMP '2019-01-30 18:26:38.551022'", 
+                "testDecimal" : "99.55"
+            }
+        ], 
+        "innerObj" : {
+            "innerObj" : {
+                "innerObj" : {
+                    "innerObj" : {
+                        "testNumber" : "6666", 
+                        "testDate" : "2019-01-30 18:26:38.551022", 
+                        "testDecimal" : "55.55"
+                    }
+                }
+            }
+        }, 
+        "duration" : "135", 
+        "rating" : "4.5"
+    }, 
+    "randomReleaseDates" : [
+        "2019-01-22T04:00:39.828+0000", 
+        "2019-01-23T04:00:39.828+0000", 
+        "2019-01-24T04:00:39.828+0000"
+    ]
+}

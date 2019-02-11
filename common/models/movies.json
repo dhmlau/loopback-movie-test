@@ -1,0 +1,173 @@
+{
+  "name": "movies",
+  "options": {
+    "validate": false,
+    "forceId": false
+  },
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The movies Schema",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "releaseDate": {
+      "type": "Date"
+    },
+    "rating": {
+      "type": "string",
+      "mongodb": {
+        "dataType": "Decimal128"
+      }
+    },
+    "runtime": {
+      "type": "number"
+    },
+    "states": {
+      "type": [
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "randomReview": {
+      "type": [
+        {
+          "type": "string",
+          "mongodb": {
+            "dataType": "Decimal128"
+          }
+        }
+      ]
+    },
+    "randomReleaseDates": {
+      "type": [
+        {
+          "type": "Date"
+        }
+      ]
+    },
+    "tickets": {
+      "type": [
+        {
+          "theatre": {
+            "type": "string"
+          },
+          "unitprice": {
+            "type": "string",
+            "mongodb": {
+              "dataType": "Decimal128"
+            }
+          },
+          "capacity": {
+            "type": "number"
+          }
+        }
+      ]
+    },
+    "awards": {
+      "type": {
+        "wins": {
+          "type": "number"
+        },
+        "prizeMoney": {
+          "type": "string",
+          "mongodb": {
+            "dataType": "Decimal128"
+          }
+        },
+        "currency": {
+          "type": "string"
+        }
+      }
+    },
+    "imdb": {
+      "type": {
+        "duration": {
+          "type": "number"
+        },
+        "reviewDate": {
+          "type": "Date"
+        },
+        "rating": {
+          "type": "string",
+          "mongodb": {
+            "dataType": "Decimal128"
+          }
+        },
+        "innerArray": [
+          {
+            "testNumber": {
+              "type": "number"
+            },
+            "testDate": {
+              "type": "Date"
+            },
+            "testDecimal": {
+              "type": "string",
+              "mongodb": {
+                "dataType": "Decimal128"
+              }
+            },
+            "ObjInsideAnArray": {
+              "testNumber": {
+                "type": "number"
+              },
+              "testDate": {
+                "type": "Date"
+              },
+              "testDecimal": {
+                "type": "string",
+                "mongodb": {
+                  "dataType": "Decimal128"
+                }
+              }
+            },
+            "nestedArray": [
+              {
+                "testNumber": {
+                  "type": "number"
+                },
+                "testDate": {
+                  "type": "Date"
+                },
+                "testDecimal": {
+                  "type": "string",
+                  "mongodb": {
+                    "dataType": "Decimal128"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "innerObj": {
+          "innerObj": {
+            "innerObj": {
+              "innerObj": {
+                "testNumber": {
+                  "type": "number"
+                },
+                "testDate": {
+                  "type": "Date"
+                },
+                "testDecimal": {
+                  "type": "string",
+                  "mongodb": {
+                    "dataType": "Decimal128"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
